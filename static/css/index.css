@@ -1,0 +1,33 @@
+.content .bar > * {
+    background: transparent;
+}
+.content .bar .searchbar {
+    width: 93%;
+    float: right;
+}
+.content .bar .classify {
+    width: 7%;
+    float: left;
+}
+.content .bar .classify {
+    line-height: 0.5rem;
+    min-width: 32px;
+    text-align: center;
+}
+.content .bar .classify i {
+    padding: 0.1rem 0.1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.content .bar .classify .text {
+    display: block;
+    padding: 0rem 0.2rem;
+    font-size: 0.3rem;
+}
+.content .swiper-container {
+    width: 100%;
+    height: 165px;
+}
+.content .swiper-container .swiper-wrapper img {
+    width: 100%;
+}

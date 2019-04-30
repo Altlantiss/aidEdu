@@ -1,0 +1,15 @@
+.page {
+    min-width: 320px;
+    background-color: rgb(240, 240, 242);
+}
+.bar-header-secondary {
+    position: relative;
+    top: 0;
+    background: transparent;
+}
+.bar.bar-nav {
+    background-color: rgb(85, 85, 85);
+}
+.bar.bar-nav h1 {
+    color: #fff;
+}
