@@ -1,0 +1,43 @@
+.page {
+    background-color: #fff;
+}
+.content .header {
+	width: 100%;
+	height: 6rem;
+    padding: 1rem;
+}
+.content .header .avatar-wrapper {
+    width: 5rem;
+    height: 5rem;
+	margin: 0 auto;
+}
+.content .header .avatar-wrapper img {
+	width: 100%;
+	border-radius: 50%;
+}
+.content .list-block .item-media+.item-inner {
+	margin-left: 0;
+}
+.content .list-block .item-title.label {
+	width: 30%;
+}
+.content .verify-input {
+	width: 35%;
+	border-right: 2px solid #f3f3f3;
+}
+.content .btn-wrapper {
+	padding-left: 10px;
+}
+.content .getVerify {
+	color: rgb(26, 173, 25);
+}
+.city-picker .bar.bar-nav {
+	background: rgb(245, 245, 245);
+}
+.city-picker .picker-modal-inner.picker-items {
+	background: #f7f7f7;
+	-webkit-mask-box-image: none;
+}
+.button.button-big.button-fill.button-success {
+	background: #1f9e34;
+}

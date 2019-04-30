@@ -27,8 +27,33 @@
 }
 .content .swiper-container {
     width: 100%;
-    height: 165px;
+    height: 8.5rem;
 }
 .content .swiper-container .swiper-wrapper img {
+    width: 100%;
+}
+.content .src-content {
+    padding-top: 0.5rem;
+}
+.content .src-content .src-title {
+    position: relative;
+    left: -1px;
+    width: 5rem;
+    height: 1.35rem;
+    padding: 0px;
+    line-height: 1.35rem;
+    text-align: center;
+    font-size: 0.7rem;
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 20px;
+    border-color: #bbb;
+    opacity: 1;
+}
+.content .src-content .src-list {
+    padding: 5px;
+}
+.content .src-content .src-list .item img {
     width: 100%;
 }
