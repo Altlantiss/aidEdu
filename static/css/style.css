@@ -13,3 +13,24 @@
 .bar.bar-nav h1 {
     color: #fff;
 }
+
+
+/*修改左右切换样式*/
+.page-from-center-to-left {
+	animation: pageFromCenterToLeft 0ms forwards;
+	-webkit-animation: pageFromCenterToLeft 0ms forwards;
+}
+.page-from-left-to-center {
+	animation: pageFromLeftToCenter 0ms forwards;
+	-webkit-animation: pageFromLeftToCenter 0ms forwards;
+}
+.page-from-right-to-center {
+	animation: pageFromRightToCenter 0ms forwards;
+	-webkit-animation: pageFromRightToCenter 0ms forwards;
+	z-index: 2002;
+}
+.page-from-center-to-right {
+	animation: pageFromCenterToRight 0ms forwards;
+	-webkit-animation: pageFromCenterToRight 0ms forwards;
+	z-index: 2002;
+}

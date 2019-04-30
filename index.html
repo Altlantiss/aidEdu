@@ -8,11 +8,15 @@
 	<link rel="shortcut icon" href="/favicon.ico">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css"> <!-- SUI -->
-  <link rel="stylesheet" type="text/css" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css"> <!-- SUI扩展 -->
-  <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1169346_5hffwqsjr6g.css"> <!-- ICON -->
-	<link rel="stylesheet" type="text/css" href="./static/css/style.css"> <!-- CUSTOM -->
+	<!-- SUI -->
+	<link rel="stylesheet" type="text/css" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+	<!-- SUI扩展 -->
+  <link rel="stylesheet" type="text/css" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+  <!-- ICON -->
+  <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1169346_5hffwqsjr6g.css">
+  <!-- COMMON CSS -->
+	<link rel="stylesheet" type="text/css" href="./static/css/style.css">
+	<!-- INDEX CSS -->
 	<link rel="stylesheet" type="text/css" href="./static/css/index.css">
 </head>
 <body>
@@ -46,7 +50,7 @@
 		  <!-- CONTENT -->
 		  <div class="content">
 	    	<div class="bar bar-header-secondary">
-	    		<div class="classify">
+	    		<div class="classify open-panel">
 	    			<i class="icon iconfont iconicon-"></i>
 	    			<span class="text">分类</span>
 	    		</div>
@@ -69,9 +73,23 @@
 			    </div>
 			    <div class="swiper-pagination"></div>
 			  </div>
+				<!-- END Slider -->
 		  </div>
 		  <!-- END CONTENT -->
 		</div>
+		<!-- PANEL -->
+		<div class="panel-overlay"></div>
+	  <div class="panel panel-left panel-reveal theme-dark">
+		  <div class="content-block">
+		    <p>这是一个侧栏</p>
+		    <p>你可以在这里放用户设置页面</p>
+		    <p><a href="#" class="close-panel">关闭</a></p>
+		  </div>
+		  <div class="list-block">
+		    <!-- .... -->
+		  </div>
+		</div>
+		<!-- END PANEL -->
 	</div>
 
 	<!-- SUI -->
