@@ -11,6 +11,7 @@
 }
 .content .bar .classify {
     line-height: 0.5rem;
+    width: 10%;
     min-width: 32px;
     text-align: center;
 }
@@ -22,7 +23,7 @@
 .content .bar .classify .text {
     display: block;
     padding: 0rem 0.2rem;
-    font-size: 0.3rem;
+    font-size: 0.6rem;
 }
 .content .swiper-container {
     width: 100%;
